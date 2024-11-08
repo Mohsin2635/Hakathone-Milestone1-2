@@ -37,6 +37,11 @@ button {
   cursor: pointer;
   box-shadow: 0 0 25px rgb(15, 89, 173);
 }
+button:hover {
+  color: rgba(26, 25, 25, 0.925);
+  background-color: #ebe9e9;
+  transition: linear 0.3s;
+}
 body {
   width: 90%;
   margin: 50px 70px 50px 70px;
@@ -270,6 +275,15 @@ body {
     width: 100%;
     border: none;
   }
+  .About ,.education,.experience{
+    margin-left: 10px;
+  }
+  .expertice ul{
+    padding-left: 20px;
+  }
+  .skills-section span{
+    font-size: 1rem;
+  }
 }
 @media (max-width: 600px) {
   body {
@@ -299,39 +313,9 @@ body {
     font-size: 1.1rem;
   }
   .all-contant {
-   margin-left: 30px;   
+   margin-left: 15px;   
   }
   .nextjs{
     gap: 0;
   }
 }
-/* @media (max-width: 800px) {
-  .image {
-    margin: 100px;
-    height: 110%;
-    width: 18%;
-  }
-  button {
-    max-width: 60%;
-  }
-  .name-container h1 {
-    font-size: 1.2rem;
-    padding-left: 0;
-  }
-  .Skils {
-    display: none;
-  }
-  .language {
-    display: none;
-  }
-}
-@media (max-width: 700px) {
-  .image {
-    margin: 90px;
-    height: 110%;
-    width: 19%;
-  }
-  button {
-    max-width: 50%;
-  }
-} */
