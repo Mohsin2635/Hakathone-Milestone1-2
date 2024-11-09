@@ -37,11 +37,6 @@ button {
   cursor: pointer;
   box-shadow: 0 0 25px rgb(15, 89, 173);
 }
-button:hover {
-  color: rgba(26, 25, 25, 0.925);
-  background-color: #ebe9e9;
-  transition: linear 0.3s;
-}
 body {
   width: 90%;
   margin: 50px 70px 50px 70px;
@@ -218,6 +213,10 @@ body {
 }
 .experience h2,p{
   margin-top: 10px;
+}
+.reference ul li{
+font-size: 1.2rem;
+margin: 20px 0 0 50px;
 }
 
 @media (max-width: 1150px) {
